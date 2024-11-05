@@ -36,6 +36,7 @@ func (h *HelloName) OnButtonPressed() {
   h.Text.SetText(tmp.String("Hello " + h.Name.GetText(tmp).String()))
 }
 */
+
 func main() {
   godot, ok := gdextension.Link()
   if !ok {
